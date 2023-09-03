@@ -65,8 +65,6 @@ struct note {
 
 // Add prototypes for any extra functions you create here.
 
-
-
 // Return a malloced Beat with fields initialized.
 Beat create_beat(void) {
     Beat new_beat = malloc(sizeof (struct beat));
